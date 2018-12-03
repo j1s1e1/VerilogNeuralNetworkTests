@@ -1,8 +1,10 @@
 These files are based on the MNIST image handwritting database.
 
-train-images.idx3-ubyte   60000 images 28x28 pixels one byte per pixel.
+t100-images.idx3-ubyte    100 test images 28x28 pixels one byte per pixel -- includes 16 byte header.
 
 mnist_network.bin         This file contains weight and bias values from a trained network as doubles.
 
 Layer1Output.bin          This file contains the outputs of the first layer of the network for the first 100 images.
                           This is used to test the layer 2 process without rerunning layer 1 every time.
+                          
+Files with thousands of images availabe here:  http://yann.lecun.com/exdb/mnist/                          
